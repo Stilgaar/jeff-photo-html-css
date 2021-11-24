@@ -1,0 +1,171 @@
+/* CSS : Header/ Général */ 
+
+body {
+background-color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: lighter;
+margin-left: 200px;
+margin-right: 200px;
+list-style-type: none;
+width: 1400px;
+margin: auto;
+
+}
+
+header{
+text-align: center;
+margin-top: 100px;
+}
+
+
+.logo {
+    height: 80px;
+    padding: 0px;
+    margin:    0;
+    z-index: 15;
+}
+
+
+h1 { 
+    font-weight: lighter;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;  
+    margin-bottom: -25px;
+    color: #c09e77;
+}
+
+a{
+    color: #c09e77;   
+    text-decoration:none; 
+}
+
+a:hover { 
+    color: #756047; 
+}
+
+
+/* Menu Texte */
+
+
+.menu-gauche {
+    color: #c09e77;
+    display: inline-flex;
+    font-size: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    list-style: none;           
+    text-align: unset;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    background-color: white;
+    padding-left: 250px;
+    margin: 0;
+    height: auto;  
+    border: solid white 10px;
+    z-index: 10;
+    
+}   
+
+.menu-elem {
+    color: #c09e77;
+     padding: 0;
+     margin-left: 10px;
+     margin-right: 10px;
+ 
+}
+
+.petitv {
+ height: 8px;
+
+}
+
+/* Menu Images */
+
+.menu-droite {
+    right: 200px;
+    top: 0;
+    position: fixed;
+    list-style: none;
+    display: inline-flex;
+    background-color: white;
+    padding-right: 50px;
+    margin: 0;
+    height: auto;  
+    border: solid white 10px;
+    z-index: 15;
+}
+
+.enveloppe, .fb, .twitter, .insta {
+ height: 20px;
+
+}
+
+.img-elem {
+    color: #c09e77;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* Menu Photo / Corps du site */
+
+.menu-photo {
+    
+    margin-top: 2%;
+    display:grid;   
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr;
+    justify-content: space-around;
+    align-items: space-around;
+    position : relative;
+    text-align: center;
+    
+}    
+
+.pics {
+ height: 300px;
+ justify-self: stretch;
+ align-self: stretch;
+ margin: 5px;
+
+
+}
+
+.photo-elem {
+    list-style-type: none;
+    
+}
+
+.texte-photo-elem, .texte-photo-elem2 {
+ text-align: center;
+
+
+}
+
+.texte-photo-elem {
+    padding: 5px;
+    font-size: 30px;
+
+
+}
+
+.texte-photo-elem2 {
+    padding: 1px;
+    color: #c09e77;
+
+}
+
+
+
+/* Pied de Page */ 
+
+footer {
+    color: #c09e77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
